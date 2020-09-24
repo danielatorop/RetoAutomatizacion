@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="regiset the users in the page utest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-09-24T21:23:38" hostname="DESKTOP-Q4894V4" time="183.81">
+  <properties/>
+  <testcase name="register the user new" classname="regiset the users in the page utest" time="183.81">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at org.openqa.selenium.support.ui.Quotes.escape(Quotes.java:42)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:113)
+	at net.serenitybdd.core.pages.DropdownSelector.byVisibleText(DropdownSelector.java:19)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.selectByVisibleText(WebElementFacadeImpl.java:914)
+	at com.certificacion.sophos.utest.tasks.DataPersonal.performAs(DataPersonal.java:31)
+	at com.certificacion.sophos.utest.tasks.DataPersonal$$EnhancerByCGLIB$$c48530c1.CGLIB$performAs$0(&lt;generated&gt;)
+	at com.certificacion.sophos.utest.tasks.DataPersonal$$EnhancerByCGLIB$$c48530c1$$FastClassByCGLIB$$904a0388.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:478)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:463)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:438)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:179)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:166)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:72)
+	at com.certificacion.sophos.utest.tasks.DataPersonal$$EnhancerByCGLIB$$c48530c1.performAs(&lt;generated&gt;)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at com.certificacion.sophos.utest.stepdefinitions.RegisterUsersStepdefinitions.youMustFillOutTheForm(RegisterUsersStepdefinitions.java:38)
+	at ✽.You must fill out the form(src/test/resources/feature/regiserteruser.feature:4)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[sep 24, 2020 4:23:41 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 3763
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+sep 24, 2020 4:24:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[1600982718.736][SEVERE]: Timed out receiving message from renderer: 10.000
+[1600982718.797][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1600982728.798][SEVERE]: Timed out receiving message from renderer: 10.000
+[1600982738.801][SEVERE]: Timed out receiving message from renderer: 10.000
+[1600982738.802][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1600982748.803][SEVERE]: Timed out receiving message from renderer: 10.000
+[1600982758.806][SEVERE]: Timed out receiving message from renderer: 10.000
+[1600982758.806][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1600982768.807][SEVERE]: Timed out receiving message from renderer: 10.000
+]]></system-err>
+</testsuite>

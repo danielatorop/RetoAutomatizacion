@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="regiset the users in the page utest" skipped="0" tests="1" time="169.83" timestamp="2020-09-24 04:23:38"><testcase name="register the user new"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+com.certificacion.sophos.utest.tasks.DataPersonal.performAs(DataPersonal.java:31)&#13;
+com.certificacion.sophos.utest.stepdefinitions.RegisterUsersStepdefinitions.youMustFillOutTheForm(RegisterUsersStepdefinitions.java:38)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
